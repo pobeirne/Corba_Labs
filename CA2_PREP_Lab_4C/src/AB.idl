@@ -1,0 +1,14 @@
+module AddressBookAny {
+
+    struct AddressBook {
+    	string name;
+    	string address;
+    	string phone;
+    	string email;
+    };   
+
+    interface distAddrBk {
+	void storePhoneBookDetails(in AddressBook myAddressBook);
+	void getPhoneBookDetails(in string name, out any myAddressBook) ;
+    };
+};

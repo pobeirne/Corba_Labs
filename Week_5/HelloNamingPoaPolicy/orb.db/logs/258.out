@@ -1,0 +1,13 @@
+[Thu Feb 26 10:50:00 GMT 2015]         Server started
+[Thu Feb 26 10:50:00 GMT 2015]         Install starting
+[Thu Feb 26 10:50:00 GMT 2015]         Install completed
+org.omg.CosNaming.NamingContextPackage.AlreadyBound: IDL:omg.org/CosNaming/NamingContext/AlreadyBound:1.0
+	at org.omg.CosNaming.NamingContextPackage.AlreadyBoundHelper.read(AlreadyBoundHelper.java:60)
+	at org.omg.CosNaming._NamingContextStub.bind_new_context(_NamingContextStub.java:408)
+	at HelloNamingServer.main(HelloNamingServer.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.sun.corba.se.impl.activation.ServerMain.run(ServerMain.java:262)
+	at com.sun.corba.se.impl.activation.ServerMain.main(ServerMain.java:275)

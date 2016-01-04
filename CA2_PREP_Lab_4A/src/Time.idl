@@ -1,0 +1,9 @@
+module AnyExample {  
+    struct Time {   
+       long hour ;
+       long minute ;
+    };  
+    interface TimeOfDay {
+       any hello(out any anyTime);
+    };
+}; 

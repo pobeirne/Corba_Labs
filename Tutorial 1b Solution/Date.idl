@@ -1,0 +1,6 @@
+
+module DateApp{
+  interface DateInterface{
+    string getMasterDateMethod(in string student);
+  };//end interface DateInterface
+};//end module DateApp

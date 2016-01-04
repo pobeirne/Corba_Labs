@@ -1,0 +1,12 @@
+// Grid.idl
+
+module GridWorld {
+    interface Grid {
+	readonly attribute long rows;  
+	readonly attribute long columns;   
+
+	void set(in long row, in long column, in long value);
+	long get(in long row, in long column);
+//	oneway void shutdown() ;
+    };
+};
